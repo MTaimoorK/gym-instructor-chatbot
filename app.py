@@ -43,7 +43,7 @@ def generate_image(prompt):
         st.error(f"Error generating image: {str(e)}")
         return None
 
-def main():
+def app():
     # Custom CSS for chat interface
     st.markdown("""
         <style>
@@ -217,4 +217,4 @@ def main():
     st.markdown('</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)
