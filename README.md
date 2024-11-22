@@ -18,8 +18,7 @@ An AI-powered fitness assistant developed during the **Pak Angels Generative AI 
 ## Technologies Used  
 - **OpenAI GPT-4 API**  
 - **Python**  
-- **Flask** for backend  
-- **HTML/CSS** for frontend  
+- **Streamlit** for front-end  
 
 ---
 
